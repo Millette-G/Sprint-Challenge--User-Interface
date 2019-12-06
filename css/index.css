@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* End of Reset */
 * {
     box-sizing: border-box;
 }
@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 h1, h2, h3, h4, h5 {
@@ -61,16 +62,33 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+.links {
+    width: 800px;
+    margin: 0 auto;
+    border-top:20px solid white;
+}
+.links {
 
+	display:flex;
+	align-content: center;
+	justify-content: space-between;
+    align-items: baseline;
+    height:100px;
+}
+.links a {
+	color: black;
+	text-decoration: none;
+}
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+#top-img {
+    height: 180px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +102,21 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.top-content2 .text-container2 {
+    width: 100%;
+    padding: 0 3%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+}
+.middle-content2 .text-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 48%;
+    padding:15px;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,7 +143,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +186,11 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.bottom-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 footer {
     width: 100%;
     background: black;
